@@ -1,0 +1,14 @@
+{
+    "name": "Dockerfile",
+    "context": "../",
+    "dockerFile": "../Dockerfile",
+    "extensions": [
+		"ms-python.python",
+		"ms-toolsai.jupyter",
+		"GrapeCity.gc-excelviewer"
+	],
+    "settings": {
+        "terminal.integrated.shell.linux": null
+    },
+    "forwardPorts": [4050]
+}
